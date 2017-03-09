@@ -7,8 +7,8 @@ public class Half {
     /**
      * half search index
      *
-     * @param orderArray
-     * @param value
+     * @param orderArray must order array
+     * @param value      array inside value
      * @return
      */
     public static int halfSearch(int[] orderArray, int value) {
