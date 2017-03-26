@@ -8,4 +8,6 @@ class Father extends Super{
     static{
         System.out.println("执行了父类静态语句块");
     }
+    public static void getMethod() {
+    }
 }

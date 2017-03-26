@@ -5,7 +5,12 @@ package com.mysiga.learn.statics;
  */
 public class Super {
     public static int m = 11;
-    static{
+
+    static {
         System.out.println("执行了super类静态语句块");
+    }
+
+    public static void getMethod() {
+
     }
 }
