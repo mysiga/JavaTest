@@ -1,7 +1,7 @@
 package com.mysiga.learn.template;
 
 /**
- * Created by Wilson on 2017/3/25.
+ * 模板设计模式：抽象类{@link AbstractTemplate},具体子类{@link MaxTemplate}和{@link MinTemplate}
  */
 public class TemplateText {
     public static void main(String[] args) {
