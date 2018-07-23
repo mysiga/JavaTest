@@ -6,12 +6,11 @@ package com.mysiga.learn.chain;
  */
 public class Client {
     public static void main(String[] args) {
-        Approver wjzhang, gyang, jguo, menting, rhuang;
-        wjzhang = new Director("张无忌");
-        rhuang = new Manager("黄蓉");
-        gyang = new VicePresident("杨过");
-        jguo = new President("郭靖");
-        menting = new Congress("董事会");
+        Approver wjzhang = new Director("张无忌");
+        Approver rhuang = new Manager("黄蓉");
+        Approver gyang = new VicePresident("杨过");
+        Approver jguo = new President("郭靖");
+        Approver menting = new Congress("董事会");
         wjzhang.setSuccessor(rhuang);
         rhuang.setSuccessor(gyang);
         gyang.setSuccessor(jguo);

@@ -13,10 +13,10 @@ public class ProxyTest {
         //proxy.Request();
 
         //dynamic proxy
-        //ProxyHandler handler = new ProxyHandler(realSubject);
-        //Subject subjectProxy = (Subject) Proxy.newProxyInstance(
-        //        RealSubject.class.getClass().getClassLoader(), RealSubject.class.getInterfaces(),
-        //        handler);
-        //subjectProxy.Request();
+        ProxyHandler handler = new ProxyHandler(realSubject);
+        Subject subjectProxy = (Subject) Proxy.newProxyInstance(
+                RealSubject.class.getClass().getClassLoader(), RealSubject.class.getInterfaces(),
+                handler);
+        subjectProxy.Request();
     }
 }
