@@ -1,6 +1,7 @@
 package com.mysiga.learn.threadpool;
 
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created by Wilson on 2018/7/10.
@@ -12,5 +13,11 @@ public class ThreadPoolTest {
         for (int i = 0; i < 11; i++) {
             executorService.execute(new TestRunnable(String.valueOf(i)));
         }
+        Executors.newCachedThreadPool();
+        Executors.newFixedThreadPool(2);
+        Executors.newScheduledThreadPool(2);
+        Executors.newSingleThreadExecutor();
+        Executors.newWorkStealingPool();
+        AtomicInteger atomicInteger=new AtomicInteger();
     }
 }

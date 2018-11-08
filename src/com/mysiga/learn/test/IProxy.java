@@ -1,0 +1,8 @@
+package com.mysiga.learn.test;
+
+/**
+ * Created by Wilson on 2018/10/10.
+ */
+public interface IProxy {
+    void getName();
+}

@@ -8,4 +8,5 @@ public class Father implements Observer {
     public void update() {
         System.out.println("father update");
     }
+
 }

@@ -7,12 +7,12 @@ package com.mysiga.learn.single;
  */
 
 public class LockSingleton {
-    private static LockSingleton singleton;
+    private volatile static LockSingleton singleton;
 
     private LockSingleton() {
     }
 
-    public static LockSingleton getInstance() {
+    public static final LockSingleton getInstance() {
         //single checked
         if (singleton == null) {
             synchronized (LockSingleton.class) {
