@@ -10,7 +10,13 @@ import java.lang.reflect.Method;
  */
 public class ReflectTest {
     public static void main(String[] args) {
-//        反射三种创建
+
+
+        onRefletMethod();
+    }
+
+    private static void onRefletMethod() {
+        //        反射三种创建
 //        1.对象获取
         ReflectObject object = new ReflectObject();
         Class class1 = object.getClass();
@@ -44,6 +50,20 @@ public class ReflectTest {
             fieldBuilder.append(fields[i]).append(",");
         }
         System.out.println("所有成员变量：" + fieldBuilder.toString());
+
+        try {
+            System.out.println("变量name1：" + object.toString());
+            Field nameField = class1.getDeclaredField("username");
+            nameField.setAccessible(true);
+            nameField.set(object, "xxxName");
+            System.out.println("变量name2：" + object.toString());
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        }
+
+
         Method method = null;
         try {
             method = class3.getMethod("addName", String.class, int.class);
@@ -53,7 +73,7 @@ public class ReflectTest {
         if (method != null) {
             try {
                 try {
-                    method.invoke(class3.newInstance(),"Java",12);
+                    method.invoke(class3.newInstance(), "Java", 12);
                 } catch (InstantiationException e) {
                     e.printStackTrace();
                 }

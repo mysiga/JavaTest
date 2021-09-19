@@ -4,12 +4,11 @@ package com.mysiga.learn.proxy;
  * Created by Wilson on 2018/7/23.
  */
 public class ReflectObject {
-    public String name;
-    private String username;
+    public String name="name";
+    private String username="user1name";
 
     public ReflectObject() {
     }
-
     @Override
     public String toString() {
         return "ReflectObject{" +
