@@ -1,4 +1,4 @@
-package com.mysiga.kotlin.proxy.designmode.build.simple
+package com.mysiga.kotlin.proxy.pattern
 
 /**
  * 饿汉试
@@ -12,10 +12,10 @@ object SingletonHungry {
  */
 class SingletonInner private constructor(){
     private object ViewHolder{
-        val holder=SingletonInner()
+        val holder= SingletonInner()
     }
     companion object{
-        val instance=ViewHolder.holder
+        val instance= ViewHolder.holder
     }
 }
 /**

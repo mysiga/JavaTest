@@ -1,4 +1,4 @@
-package com.mysiga.kotlin.proxy.designmode.build.simple
+package com.mysiga.kotlin.proxy.pattern
 
 interface Logger {
     fun writeLog()
@@ -33,7 +33,7 @@ class DatabaseLoggerFactory : LoggerFactory {
 }
 
 fun main(args: Array<String>) {
-    val loggerFactory=FileLoggerFactory()
+    val loggerFactory= FileLoggerFactory()
     val logger=loggerFactory.createLogger()
     logger.writeLog()
 }

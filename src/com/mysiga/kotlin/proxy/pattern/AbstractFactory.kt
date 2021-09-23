@@ -1,4 +1,4 @@
-package com.mysiga.kotlin.proxy.designmode.build.simple
+package com.mysiga.kotlin.proxy.pattern
 
 interface Button {
     fun display()
