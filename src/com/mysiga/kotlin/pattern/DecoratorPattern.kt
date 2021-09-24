@@ -1,4 +1,4 @@
-package com.mysiga.kotlin.proxy.pattern
+package com.mysiga.kotlin.pattern
 
 /**
  * 装饰模式

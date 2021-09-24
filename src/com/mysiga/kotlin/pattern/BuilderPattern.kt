@@ -1,4 +1,4 @@
-package com.mysiga.kotlin.proxy.pattern
+package com.mysiga.kotlin.pattern
 
 class Computer(builder: Builder) {
     var cpu: String? = null

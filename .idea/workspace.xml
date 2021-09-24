@@ -5,49 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d23876b-c5ed-4410-870c-eeb81d304aea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/ChainResponsibilityPattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/DynamicProxyPattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/ObserverPattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/ProxyPattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/StrategyPattern.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaTest/META-INF/JavaTest.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTest/META-INF/JavaTest.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/AbstractFactoryKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/Bar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/ComboBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/DatabaseLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/DatabaseLoggerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/FactoryMethodPatternKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/FileLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/FileLoggerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/LoggerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/ProductA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/ProductB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/ProductC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/ProductFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SimpleFactoryPatternKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SingletonHungry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SingletonInner$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SingletonInner$ViewHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SingletonInner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SingletonLock$Companion$instance$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SingletonLock$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SingletonLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SingletonPatternKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SkinFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SpringButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SpringComboBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SpringSkinFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SpringTextField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SummerButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SummerComboBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SummerSkinFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/SummerTextField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/com/mysiga/kotlin/proxy/designmode/build/simple/TextField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/designmode/build/simple/AbstractFactory.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/designmode/build/simple/FactoryMethodPattern.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/designmode/build/simple/PrototypePattern.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/designmode/build/simple/SimpleFactoryPattern.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/designmode/build/simple/SingletonPattern.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/designmode/build/simple/TextBar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/pattern/AbstractFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/AbstractFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/pattern/AdapterPattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/AdapterPattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/pattern/BuilderPattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/BuilderPattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/pattern/CompositePattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/CompositePattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/pattern/DecoratorPattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/DecoratorPattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/pattern/FacadePattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/FacadePattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/pattern/FactoryMethodPattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/FactoryMethodPattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/pattern/PrototypePattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/PrototypePattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/pattern/SimpleFactoryPattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/SimpleFactoryPattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/pattern/SingletonPattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/SingletonPattern.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +85,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FacadePatternKt">
+  <component name="RunManager" selected="Application.StrategyPatternKt">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -123,66 +97,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdapterPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="ChainResponsibilityPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.mysiga.kotlin.proxy.designmode.build.simple.AdapterPatternKt" />
+      <option name="MAIN_CLASS_NAME" value="com.mysiga.kotlin.pattern.ChainResponsibilityPatternKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuilderPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicProxyPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.mysiga.kotlin.proxy.designmode.build.simple.BuilderPatternKt" />
+      <option name="MAIN_CLASS_NAME" value="com.mysiga.kotlin.pattern.DynamicProxyPatternKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompositePatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="ObserverPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.mysiga.kotlin.proxy.designmode.build.simple.CompositePatternKt" />
+      <option name="MAIN_CLASS_NAME" value="com.mysiga.kotlin.pattern.ObserverPatternKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoratorPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="ProxyPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.mysiga.kotlin.proxy.designmode.build.simple.DecoratorPatternKt" />
+      <option name="MAIN_CLASS_NAME" value="com.mysiga.kotlin.proxy.pattern.ProxyPatternKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FacadePatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="StrategyPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.mysiga.kotlin.proxy.pattern.FacadePatternKt" />
+      <option name="MAIN_CLASS_NAME" value="com.mysiga.kotlin.pattern.StrategyPatternKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FacadePatternKt" />
-        <item itemvalue="Application.DecoratorPatternKt" />
-        <item itemvalue="Application.CompositePatternKt" />
-        <item itemvalue="Application.AdapterPatternKt" />
-        <item itemvalue="Application.BuilderPatternKt" />
+        <item itemvalue="Application.StrategyPatternKt" />
+        <item itemvalue="Application.ObserverPatternKt" />
+        <item itemvalue="Application.ChainResponsibilityPatternKt" />
+        <item itemvalue="Application.DynamicProxyPatternKt" />
+        <item itemvalue="Application.ProxyPatternKt" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +216,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/com/mysiga/kotlin/proxy/pattern/FacadePattern.kt</url>
+          <url>file://$PROJECT_DIR$/src/com/mysiga/kotlin/pattern/FacadePattern.kt</url>
           <line>45</line>
           <properties method="main">
             <option name="EMULATED" value="true" />
